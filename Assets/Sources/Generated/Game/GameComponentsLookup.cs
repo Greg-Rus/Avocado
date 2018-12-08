@@ -8,15 +8,15 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
+    public const int Health = 0;
 
-
-    public const int TotalComponents = 0;
+    public const int TotalComponents = 1;
 
     public static readonly string[] componentNames = {
-
+        "Health"
     };
 
     public static readonly System.Type[] componentTypes = {
-
+        typeof(Health)
     };
 }
